@@ -1,0 +1,45 @@
+export const tiers = [
+    {
+        name: "Free",
+        id: "Free",
+        href: "checkout",
+        price: "Rs 0.00/month",
+        amount: 0,
+        description: "The essentials to provide your best work for clients.",
+        features: ["5 Credits", "1 User", "Basic Support"],
+        mostPopular: false,
+    },
+
+    {
+        name: "Basic",
+        id: "Basic",
+        href: "checkout",
+        price: "Rs 200/month",
+        amount: 200,
+        description: "A plan that scales with your rapidly growing business.",
+        features: [
+            "25 Credits",
+            "5 Users",
+            "Priority Support",
+            "Content generation history",
+        ],
+        mostPopular: true,
+    },
+    {
+        name: "Premium",
+        id: "Premium",
+        href: "checkout",
+        price: "Rs 500/month",
+        amount: 500,
+        description: "Dedicated support and infrastructure for your company.",
+        features: [
+            "Unlimited products",
+            "Unlimited subscribers",
+            "Advanced analytics",
+            "1-hour, dedicated support response time",
+            "Marketing automation",
+            "Custom reporting tools",
+        ],
+        mostPopular: false,
+    },
+];
